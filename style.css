@@ -142,3 +142,40 @@ h1 {
     padding: 20px;
     border-radius: 10px;
 }
+.forecast-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+.forecast-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.forecast-card {
+    background: #f8f9ff;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.forecast-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.forecast-card img {
+    width: 50px;
+}
+
+
+.forecast-card .temp {
+    font-size: 1.2rem;
+    color: #667eea;
+    font-weight: bold;
+    margin-top: 10px;
+}
